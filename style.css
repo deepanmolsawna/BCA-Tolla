@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    color: darkorange;
+    text-align: center;
+    background-color: rgb(2, 24, 8);
+}
+.content{
+    display: flex;
+    
+    border: 3px solid darkorange;
+    border-radius: 20px;
+    min-height: 80%;
+    width: 500px;
+    justify-content: center;
+    margin-top: 0px;
+    flex-wrap: wrap;
+}
+.person{
+    
+  
+    margin:10px 20px 10px 40px;
+        width: 500px;
+      height: 150px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+      display: flex; /* Arranges elements inside horizontally */
+      padding: 5px;
+}
+.person img{
+        
+      
+      margin-right: 10px
+}
+.post{
+    flex: 1;
+}
+.name1{
+    color: darkorange;
+    font-weight: 900;
+    font-size: xx-large;
+}
+.link{
+    text-decoration: none;
+    font-weight: bolder;
+}
+.follow, .link{
+    color: #ed7117;
+}
